@@ -1,0 +1,12 @@
+Coloca aqui as imagens PNG das marcas:
+
+✅ suavecito.png (já está correto)
+❌ wahl.png (substituir)
+❌ andis.png (substituir)
+❌ babyliss.png (substituir)
+❌ uppercut.png (substituir)
+❌ layrite.png (substituir)
+❌ americancrew.png (substituir)
+❌ proraso.png (substituir)
+
+Todas as imagens devem ser em formato PNG com fundo transparente.

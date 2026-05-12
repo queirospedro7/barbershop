@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Queirós Barber Shop - Barbearia Premium em Fragoso</title>
+  <meta name="description" content="Barbearia premium em Fragoso. Cortes clássicos, barba tradicional e cuidado masculino de excelência." />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- LOADING SCREEN -->
+<div id="loading-screen">
+  <div class="loading-content">
+    <img src="img/logo.png" alt="Queiros Barber Shop" class="loading-logo" />
+    <div class="loading-bar">
+      <div class="loading-progress"></div>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="container nav-inner">
+    <a href="#" class="nav-logo">
+      <img src="img/logo.png" alt="Queiros Barber Shop" class="nav-logo-img" />
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <span class="mobile-close" onclick="toggleMobile()"><i class="fa fa-times"></i></span>
+  <a href="#servicos" onclick="toggleMobile()">Serviços</a>
+  <a href="#galeria" onclick="toggleMobile()">Galeria</a>
+  <a href="#sobre" onclick="toggleMobile()">Sobre</a>
+  <a href="#contacto" onclick="toggleMobile()">Contacto</a>
+  <a href="#contacto" class="btn btn-gold" onclick="toggleMobile()">Contactar</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <p class="hero-eyebrow"><i class="fa fa-scissors"></i> &nbsp; Est. 2018 · Fragoso</p>
+    <h1 class="hero-title">QUEIRÓS<br/>BARBER SHOP</h1>
+    <div class="hero-divider"></div>
+    <p class="hero-sub">Precisão. Tradição. Estilo.</p>
+    <div class="hero-cta">
+      <a href="#contacto" class="btn btn-primary">
+        <i class="fa fa-phone"></i>
+        <span class="btn-text">Contactar</span>
+      </a>
+      <a href="#servicos" class="btn btn-outline">
+        <i class="fa fa-chevron-down"></i> Ver Serviços
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="section">
+  <div class="container">
+    <p class="section-subtitle reveal">Os Nossos Serviços</p>
+    <h2 class="section-title reveal">Arte & Cuidado</h2>
+    <span class="gold-line reveal"></span>
+    <div class="services-grid">
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon"><i class="fa fa-scissors"></i></div>
+        <h3 class="service-name">Cabelo</h3>
+        <p class="service-desc">Corte moderno e personalizado com técnicas profissionais. Inclui lavagem, corte à tesoura e máquina, acabamento perfeito.</p>
+        <p class="service-price">€15 <span>/ sessão</span></p>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon"><i class="fa fa-scissors"></i></div>
+        <h3 class="service-name">Barba</h3>
+        <p class="service-desc">Aparo e modelação com navalha tradicional. Toalha quente, óleo de barbear premium e bálsamo hidratante.</p>
+        <p class="service-price">€10 <span>/ sessão</span></p>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-icon"><i class="fa fa-crown"></i></div>
+        <h3 class="service-name">Cabelo + Barba</h3>
+        <p class="service-desc">Serviço completo premium. Corte de cabelo profissional + barba clássica. A experiência completa do homem moderno.</p>
+        <p class="service-price">€20 <span>/ sessão</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section id="galeria" class="section">
+  <div class="container">
+    <p class="section-subtitle reveal">Galeria</p>
+    <h2 class="section-title reveal">O Nosso Trabalho</h2>
+    <span class="gold-line reveal"></span>
+  </div>
+  <div class="gallery-carousel">
+    <div class="gallery-track">
+      <div class="gallery-slide">
+        <img src="img/gallery/gallery1.jpg" alt="Corte Clássico" />
+      </div>
+      <div class="gallery-slide">
+        <img src="img/gallery/gallery2.jpg" alt="Barba Tradicional" />
+      </div>
+      <div class="gallery-slide">
+        <img src="img/gallery/gallery3.jpg" alt="Estilo Moderno" />
+      </div>
+      <div class="gallery-slide">
+        <img src="img/gallery/gallery4.jpg" alt="Ambiente Premium" />
+      </div>
+      <div class="gallery-slide">
+        <img src="img/gallery/gallery5.jpg" alt="Detalhe Profissional" />
+      </div>
+      <div class="gallery-slide">
+        <img src="img/gallery/gallery6.jpg" alt="Corte Preciso" />
+      </div>
+      <div class="gallery-slide">
+        <img src="img/gallery/gallery1.jpg" alt="Acabamento Perfeito" />
+      </div>
+      <div class="gallery-slide">
+        <img src="img/gallery/gallery2.jpg" alt="Estilo Clássico" />
+      </div>
+      <!-- Duplicar para loop infinito -->
+      <div class="gallery-slide">
+        <img src="img/gallery/gallery1.jpg" alt="Corte Clássico" />
+      </div>
+      <div class="gallery-slide">
+        <img src="img/gallery/gallery2.jpg" alt="Barba Tradicional" />
+      </div>
+      <div class="gallery-slide">
+        <img src="img/gallery/gallery3.jpg" alt="Estilo Moderno" />
+      </div>
+      <div class="gallery-slide">
+        <img src="img/gallery/gallery4.jpg" alt="Ambiente Premium" />
+      </div>
+    </div>
+  </div>
+  <div class="gallery-progress">
+    <div class="gallery-progress-bar"></div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="section">
+  <div class="container">
+    <p class="section-subtitle reveal">Sobre Nós</p>
+    <h2 class="section-title reveal">A Nossa Equipa</h2>
+    <span class="gold-line reveal"></span>
+    
+    <div class="team-grid">
+      <!-- Barbeiro 1 -->
+      <div class="team-card reveal">
+        <div class="team-photo">
+          <img src="img/team/barber1.jpg" alt="Ricardo Queiros" />
+          <div class="team-overlay">
+            <div class="team-years">8 Anos</div>
+          </div>
+        </div>
+        <div class="team-info">
+          <h3 class="team-name">Luís Queirós</h3>
+          <p class="team-role">Master Barber</p>
+          <p class="team-desc">Especialista em cortes clássicos e modernos. Formado em Lisboa e Barcelona.</p>
+        </div>
+      </div>
+      
+      <!-- Barbeiro 2 -->
+      <div class="team-card reveal reveal-delay-2">
+        <div class="team-photo">
+          <img src="img/team/barber2.jpg" alt="Miguel Santos" />
+          <div class="team-overlay">
+            <div class="team-years">5 Anos</div>
+          </div>
+        </div>
+        <div class="team-info">
+          <h3 class="team-name">Alexandre Costa</h3>
+          <p class="team-role">Barbeiro Especialista</p>
+          <p class="team-desc">Mestre em barbas tradicionais e degradês com técnica impecável.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARCAS -->
+<section id="marcas" class="section">
+  <div class="container">
+    <p class="section-subtitle reveal">Parceiros</p>
+    <h2 class="section-title reveal">Marcas de Confiança</h2>
+    <span class="gold-line reveal"></span>
+  </div>
+  <div class="brands-carousel">
+    <div class="brands-track">
+      <div class="brand-item"><img src="img/brands/wahl.png" alt="Wahl" /></div>
+      <div class="brand-item"><img src="img/brands/andis.png" alt="Andis" /></div>
+      <div class="brand-item"><img src="img/brands/babyliss.png" alt="BaByliss" /></div>
+      <div class="brand-item"><img src="img/brands/uppercut.png" alt="Uppercut" /></div>
+      <div class="brand-item"><img src="img/brands/layrite.png" alt="Layrite" /></div>
+      <div class="brand-item"><img src="img/brands/suavecito.png" alt="Suavecito" /></div>
+      <div class="brand-item"><img src="img/brands/americancrew.png" alt="American Crew" /></div>
+      <div class="brand-item"><img src="img/brands/proraso.png" alt="Proraso" /></div>
+      <!-- Duplicar para loop infinito -->
+      <div class="brand-item"><img src="img/brands/wahl.png" alt="Wahl" /></div>
+      <div class="brand-item"><img src="img/brands/andis.png" alt="Andis" /></div>
+      <div class="brand-item"><img src="img/brands/babyliss.png" alt="BaByliss" /></div>
+      <div class="brand-item"><img src="img/brands/uppercut.png" alt="Uppercut" /></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="section">
+  <div class="container">
+    <p class="section-subtitle reveal">Contacto</p>
+    <h2 class="section-title reveal">Fale Connosco</h2>
+    <span class="gold-line reveal"></span>
+    <div class="contacto-inner">
+      <div class="reveal">
+        <form id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="c-nome">Nome</label>
+            <input type="text" id="c-nome" placeholder="O seu nome"/>
+            <span class="form-error" id="err-c-nome">Campo obrigatório.</span>
+          </div>
+          <div class="form-group">
+            <label for="c-email">Email</label>
+            <input type="email" id="c-email" placeholder="email@exemplo.com"/>
+            <span class="form-error" id="err-c-email">Email inválido.</span>
+          </div>
+          <div class="form-group">
+            <label for="c-telefone">Telefone</label>
+            <input type="tel" id="c-telefone" placeholder="+351 912 345 678"/>
+            <span class="form-error" id="err-c-telefone">Campo obrigatório.</span>
+          </div>
+          <div class="form-group">
+            <label for="c-msg">Mensagem</label>
+            <textarea id="c-msg" placeholder="Escreva a sua mensagem..."></textarea>
+            <span class="form-error" id="err-c-msg">Campo obrigatório.</span>
+          </div>
+          <button type="submit" class="btn btn-submit" id="btn-contact">
+            <span class="btn-text">Enviar Mensagem</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </form>
+      </div>
+      <div class="contacto-info reveal reveal-delay-2">
+        <div class="info-item info-phone">
+          <div class="info-icon"><i class="fa fa-phone"></i></div>
+          <div class="info-text">
+            <h4>Telefone</h4>
+            <p class="phone-number">+351 912 345 678</p>
+          </div>
+          <div class="phone-options">
+            <a href="https://wa.me/351912345678" target="_blank" class="phone-option">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>WhatsApp</span>
+            </a>
+            <a href="tel:+351912345678" class="phone-option">
+              <i class="fa fa-phone"></i>
+              <span>Ligar</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="info-item">
+          <div class="info-icon"><i class="fa fa-envelope"></i></div>
+          <div class="info-text">
+            <h4>Email</h4>
+            <p>info@queiros.pt</p>
+          </div>
+        </div>
+        
+        <div class="info-item info-location">
+          <div class="info-icon"><i class="fa fa-location-dot"></i></div>
+          <div class="info-text">
+            <h4>Morada</h4>
+            <p>Rua S. Pedro, 29<br/>4905-082 Fragoso, Portugal</p>
+          </div>
+        </div>
+        
+        <div class="info-item">
+          <div class="info-icon"><i class="fa fa-clock"></i></div>
+          <div class="info-text">
+            <h4>Horário</h4>
+            <p>Seg–Sex: 09:00 – 20:00<br/>Sábado: 09:00 – 18:00<br/>Domingo: Encerrado</p>
+          </div>
+        </div>
+        
+        <div class="map-simple">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.8!2d-8.696432!3d41.610698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDM2JzM4LjUiTiA4wrA0MSc0Ny4yIlc!5e0!3m2!1spt-PT!2spt!4v1234567890" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RODAPÉ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Horário</h4>
+        <p>Terça–Sexta<br/>09:00 – 20:00</p>
+        <p style="margin-top:8px">Sábado<br/>09:00 – 18:00</p>
+        <p style="margin-top:8px;color:rgba(255,255,255,.35)">Domingo e Segunda: Encerrado</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto Rápido</h4>
+        <p>Rua São Pedro, 4905-082<br/>Fragoso, Portugal</p>
+        <p style="margin-top:8px">+351 912 345 678</p>
+        <p>info@queiros.pt</p>
+      </div>
+      <div class="footer-col">
+        <h4>Redes Sociais</h4>
+        <p>Siga-nos para inspiração e promoções exclusivas.</p>
+        <div class="social-links" style="margin-top:16px">
+          <a href="https://www.instagram.com/queirosbarbershop?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/queirosbarbershop/" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.fresha.com/pt-PT/lvp/queiros-barbershop-fragoso-zXDBkb" class="social-link"><i class="fa fa-calendar-check"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Queirós Barber Shop. Todos os direitos reservados.</span>
+      <span>Fragoso, Portugal</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Toast container -->
+<div id="toast-container"></div>
+
+<!-- Modal Galeria -->
+<div class="gallery-modal" id="galleryModal">
+  <div class="gallery-modal-content">
+    <button class="gallery-modal-close" onclick="closeGallery()"><i class="fa fa-times"></i></button>
+    <button class="gallery-modal-prev" onclick="prevImage()"><i class="fa fa-chevron-left"></i></button>
+    <img class="gallery-modal-img" id="galleryModalImg" src="" alt="">
+    <button class="gallery-modal-next" onclick="nextImage()"><i class="fa fa-chevron-right"></i></button>
+    <div class="gallery-thumbnails" id="galleryThumbnails"></div>
+    <div class="gallery-modal-counter" id="galleryCounter"></div>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

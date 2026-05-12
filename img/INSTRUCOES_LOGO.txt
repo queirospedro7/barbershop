@@ -1,0 +1,24 @@
+📋 INSTRUÇÕES PARA ADICIONAR LOGO E FAVICON
+
+1. LOGO (logo.png)
+   - Coloque o ficheiro logo.png nesta pasta (img/)
+   - Tamanho recomendado: 200px altura (largura proporcional)
+   - Formato: PNG com fundo transparente
+   - O logo aparecerá no canto superior esquerdo da navbar
+
+2. FAVICON (favicon.png)
+   - Coloque o ficheiro favicon.png nesta pasta (img/)
+   - Tamanho: 32x32px ou 64x64px
+   - Formato: PNG
+   - Aparecerá no separador do navegador
+
+ALTERNATIVA RÁPIDA:
+Se não tiver logo próprio, pode usar o mesmo ficheiro para ambos:
+- Crie uma imagem quadrada com tesoura/símbolo de barbearia
+- Guarde como logo.png (maior) e favicon.png (32x32px)
+
+FERRAMENTAS ONLINE GRATUITAS:
+- Criar logo: Canva.com, LogoMakr.com
+- Converter para favicon: Favicon.io, RealFaviconGenerator.net
+
+Após adicionar os ficheiros, recarregue a página (Ctrl+Shift+R)
